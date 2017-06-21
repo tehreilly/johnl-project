@@ -1,0 +1,148 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700|Oswald:400,700');
+/* end Fonts*/
+
+/*Stuff that applies to the entire document
+or for others also in the south this applies to "errything"*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  color: #4A4A4A;
+}
+
+body {
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #4A90E2;
+}
+
+p {
+  color: #767676;
+}
+
+.container {
+    margin: auto;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.2em;
+}
+
+h2 {
+font-weight: bold;
+font-size: 1.2em;
+}
+
+.hidden {
+  display: none;
+}
+
+.button {
+  background: #4A4A4A;
+  display: block;
+  padding: 18px;
+  color: white;
+  width: 285px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.button a, .button a:visited {
+  color: white;
+}
+/*end of "errything" css*/
+
+/*header section */
+.logo, .logo a, .logo  img {
+  display: flex;
+  align-items: center;
+  height: 64px;
+}
+
+.logo img {
+  padding-left: 24px;
+}
+
+.logotextleft, .logotextright{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+
+.logotextleft {
+    color: #4A4A4A;
+}
+
+.logotextright {
+  color: #9B9B9B;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.truncated-menu {
+  display: none;
+}
+
+ul li {
+    display: inline-block;
+    padding-left: 16px;
+}
+
+.menu {
+  padding-right: 24px;
+  font-family: 'Montserrat', sans-serif;
+}
+/*end header section*/
+
+/* slideshow */
+
+.slideshow, .slideshow img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  background-size: cover;
+}
+
+.calltoaction {
+  background: #B1A100;
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 25px 50px;
+  border-radius: 6px;
+  text-align: center;
+  position: relative;
+  top: -100px;
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+/* end slideshow*/
+/*main content */
+
+.maincontent {
+  margin: 25px 50px;
+
+}
+
+.maincontent h1 {
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.logo img:hover {
+      transform: scale(5.1);
+      position: absolute;
+}
+
+/*footer*/
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+}
